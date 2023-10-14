@@ -1,5 +1,5 @@
+pub mod github;
 mod stuff;
-mod github;
 
 use axum::extract::Path;
 use axum::http::StatusCode;
@@ -20,7 +20,7 @@ pub async fn updates(Path(id): Path<Vec<i32>>) -> impl IntoResponse {
 }
 #[derive(Deserialize, Debug)]
 pub struct Gitignore {
-    pub langs: Vec<String>,
+    pub lang: Vec<String>,
 }
 
 pub async fn get_ignore(lang: &str) -> Result<String, ()> {
@@ -75,12 +75,13 @@ pub async fn fetch_ignores(params: Gitignore) -> String {
     // }).collect::<Vec<String>>().join("\n"));
     let igs = join_all(
         params
-            .langs
+            .lang
             .into_iter()
             .map(|lang| closure_replacement(lang))
             .collect::<Vec<_>>(),
     )
-    .await.join("\n");
+    .await
+    .join("\n");
     igs
 }
 

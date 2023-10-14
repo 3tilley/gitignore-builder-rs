@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize)]
-struct Properties2 {
+pub struct Properties2 {
     pub path: Struct,
     pub mode: Struct,
     #[serde(rename = "type")]
@@ -12,7 +12,7 @@ struct Properties2 {
 }
 
 #[derive(Serialize, Deserialize)]
-struct Struct2 {
+pub struct Struct2 {
     pub path: String,
     pub mode: String,
     #[serde(rename = "type")]
@@ -25,21 +25,21 @@ struct Struct2 {
 }
 
 #[derive(Serialize, Deserialize)]
-struct Size {
+pub struct Size {
     #[serde(rename = "type")]
     pub r#type: String,
     pub examples: Vec<i64>,
 }
 
 #[derive(Serialize, Deserialize)]
-struct Struct1 {
+pub struct Struct1 {
     #[serde(rename = "type")]
     pub r#type: String,
     pub examples: Vec<String>,
 }
 
 #[derive(Serialize, Deserialize)]
-struct Properties1 {
+pub struct Properties1 {
     pub path: Struct1,
     pub mode: Struct1,
     #[serde(rename = "type")]
@@ -50,14 +50,14 @@ struct Properties1 {
 }
 
 #[derive(Serialize, Deserialize)]
-struct Items {
+pub struct Items {
     #[serde(rename = "type")]
     pub r#type: String,
     pub properties: Properties1,
 }
 
 #[derive(Serialize, Deserialize)]
-struct Tree {
+pub struct Tree {
     pub description: String,
     #[serde(rename = "type")]
     pub r#type: String,
@@ -66,20 +66,20 @@ struct Tree {
 }
 
 #[derive(Serialize, Deserialize)]
-struct Url {
+pub struct Url {
     #[serde(rename = "type")]
     pub r#type: String,
     pub format: String,
 }
 
 #[derive(Serialize, Deserialize)]
-struct Struct {
+pub struct Struct {
     #[serde(rename = "type")]
     pub r#type: String,
 }
 
 #[derive(Serialize, Deserialize)]
-struct Properties {
+pub struct Properties {
     pub sha: Struct,
     pub url: Url,
     pub truncated: Struct,
@@ -87,7 +87,7 @@ struct Properties {
 }
 
 #[derive(Serialize, Deserialize)]
-struct Root {
+pub struct Root {
     pub title: String,
     pub description: String,
     #[serde(rename = "type")]
