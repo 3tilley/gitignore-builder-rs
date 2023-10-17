@@ -25,7 +25,7 @@ enum Source {
 enum Command {
     Fetch { lang: Option<String> },
     Merge { lang: Vec<String> },
-    ListAll { source: Source, lang: Option<Vec<String>> },
+    ListAll { source: Option<Source>, lang: Option<Vec<String>> },
 }
 
 // impl Into<Gitignore> for Command::Merge {
@@ -60,6 +60,7 @@ async fn main() {
         }
         Command::ListAll { source, lang } => {
             println!("Fetching the list of gitignores from GitHub");
+            let source = source.unwrap_or(Source::Disk);
             match source {
                 Source::Disk => {
 
