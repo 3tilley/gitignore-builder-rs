@@ -10,8 +10,8 @@ use axum::Router;
 use axum_extra::extract::Query;
 use futures::future::join_all;
 use serde::Deserialize;
-use std::path;
-use std::pin::pin;
+
+
 use crate::github::Tree;
 
 const IGNORE_LIST: &str = include_str!("../data/gitignore-tree.json");
