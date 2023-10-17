@@ -1,14 +1,20 @@
 pub mod github;
 mod stuff;
 
+use std::collections::HashMap;
 use axum::extract::Path;
 use axum::http::StatusCode;
 use axum::response::IntoResponse;
 use axum::routing::get;
 use axum::Router;
 use axum_extra::extract::Query;
-use futures::future::{join_all, JoinAll};
+use futures::future::join_all;
 use serde::Deserialize;
+use std::path;
+use std::pin::pin;
+use crate::github::Tree;
+
+const IGNORE_LIST: &str = include_str!("../data/gitignore-tree.json");
 
 pub async fn hello_world() -> &'static str {
     "Hello from a non-standard package layout"
@@ -25,7 +31,7 @@ pub struct Gitignore {
 
 pub async fn get_ignore(lang: &str) -> Result<String, ()> {
     let url = format!(
-        "https://raw.githubusercontent.com/github/gitignore/master/{}.gitignore",
+        "https://raw.githubusercontent.com/github/gitignore/master/{}",
         lang
     );
     let resp = reqwest::get(&url).await.unwrap();
@@ -33,7 +39,7 @@ pub async fn get_ignore(lang: &str) -> Result<String, ()> {
         reqwest::StatusCode::OK => {
             println!("ok");
             let body = resp.text().await.unwrap();
-            println!("body = {:?}", body);
+            println!("{}", body);
             Ok(body)
         }
         _ => {
@@ -89,4 +95,22 @@ pub fn make_router() -> Router {
     Router::new()
         .route("/", get(hello_world))
         .route("/ignores", get(get_ignores))
+}
+
+pub fn available_ignores_from_file() -> Vec<Tree> {
+// Use fs_err to read a file from disk and deserialise with serde
+    let j: crate::github::Root = serde_json::from_str(IGNORE_LIST).unwrap();
+    j.tree
+}
+
+pub fn get_matching_ignores(all_ignores: Vec<Tree>, matching: &Vec<String>) -> Vec<String> {
+    let lower_map = all_ignores.into_iter().map(|x| (x.path.to_ascii_lowercase().replace(".gitignore", ""), x.path)).collect::<HashMap<String, String>>();
+    println!("lower_map = {:?}", lower_map);
+    println!("matching = {:?}", matching);
+    matching.into_iter().filter_map(|x| {
+        match lower_map.get(&*x.to_ascii_lowercase()) {
+            Some(m) => Some(m.clone()),
+            None => None,
+        }
+    }).collect::<Vec<_>>()
 }

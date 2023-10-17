@@ -1,6 +1,5 @@
 use clap::{Parser, Subcommand};
-use gitignore_builder_rs::Gitignore;
-use std::path::Path;
+use gitignore_builder_rs::{available_ignores_from_file, get_matching_ignores, Gitignore};
 use strum::EnumString;
 
 /// Simple program to greet a person
@@ -24,9 +23,9 @@ enum Source {
 
 #[derive(Subcommand, Debug)]
 enum Command {
-    Fetch { lang: String },
+    Fetch { lang: Option<String> },
     Merge { lang: Vec<String> },
-    ListAll { source: Source },
+    ListAll { source: Source, lang: Option<Vec<String>> },
 }
 
 // impl Into<Gitignore> for Command::Merge {
@@ -40,33 +39,42 @@ async fn main() {
     let args = Cli::parse();
     match &args.command {
         Command::Fetch { lang } => {
-            let res = gitignore_builder_rs::fetch_ignores(Gitignore {
-                lang: vec![lang.clone()],
-            })
-            .await;
-            println!("{}", res)
+            let lang = lang.clone().expect("No language specified");
+            let igs = available_ignores_from_file();
+            let m = get_matching_ignores(igs, &vec![lang.clone()]);
+            match m.len() {
+                0 => {panic!("No matching gitignore found for {}", lang)},
+                1 => {
+                    let res = gitignore_builder_rs::fetch_ignores(Gitignore {
+                        lang: m,
+                    })
+                        .await;
+                    println!("{}", res)
+                },
+                x => {panic!("Too many matching gitignores found for {}. Found {} matches", lang, x)}
+            }
         }
         Command::Merge { lang } => {
             let res = gitignore_builder_rs::fetch_ignores(Gitignore { lang: lang.clone() }).await;
             println!("{}", res)
         }
-        Command::ListAll { source } => {
+        Command::ListAll { source, lang } => {
             println!("Fetching the list of gitignores from GitHub");
             match source {
                 Source::Disk => {
-                    // Use fs_err to read a file from disk and deserialise with serde
-                    let path = Path::new(file!())
-                        .parent()
-                        .unwrap()
-                        .parent()
-                        .unwrap()
-                        .parent()
-                        .unwrap()
-                        .join("data")
-                        .join("schema.json");
-                    let f = fs_err::File::open(path).unwrap();
-                    let j: gitignore_builder_rs::github::Root = serde_json::from_reader(f).unwrap();
-                    println!("{:?}", j.title)
+
+                    let igs = gitignore_builder_rs::available_ignores_from_file();
+                    match lang {
+                        Some(langs) => {
+                            let matching = gitignore_builder_rs::get_matching_ignores(igs, langs);
+                            println!("{}", matching.join("\n"))
+                        }
+                        None => {
+                            println!("{}", igs.iter().map(|x| x.path.clone()).collect::<Vec<String>>().join("\n"))
+                        }
+                    }
+
+                    //println!("{}", serde_json::to_string_pretty(&j).unwrap())
                 }
                 Source::API => {
                     unimplemented!()

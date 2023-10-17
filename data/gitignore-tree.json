@@ -1,1 +1,1092 @@
-{"sha":"4488915eec0b3a45b5c63ead28f286819c0917de","url":"https://api.github.com/repos/github/gitignore/git/trees/4488915eec0b3a45b5c63ead28f286819c0917de","tree":[{"path":".github","mode":"040000","type":"tree","sha":"62c5dc1e194bf628ff16c852f78ffc1eb0e40e44","url":"https://api.github.com/repos/github/gitignore/git/trees/62c5dc1e194bf628ff16c852f78ffc1eb0e40e44"},{"path":"AL.gitignore","mode":"100644","type":"blob","sha":"02eac6989ad65d3fcea222171a83a1348ee0dbd9","size":371,"url":"https://api.github.com/repos/github/gitignore/git/blobs/02eac6989ad65d3fcea222171a83a1348ee0dbd9"},{"path":"Actionscript.gitignore","mode":"100644","type":"blob","sha":"5d947ca8879f8a9072fe485c566204e3c2929e80","size":350,"url":"https://api.github.com/repos/github/gitignore/git/blobs/5d947ca8879f8a9072fe485c566204e3c2929e80"},{"path":"Ada.gitignore","mode":"100644","type":"blob","sha":"b4d703968a488445345202ef8d45a35cc802aa03","size":51,"url":"https://api.github.com/repos/github/gitignore/git/blobs/b4d703968a488445345202ef8d45a35cc802aa03"},{"path":"Agda.gitignore","mode":"100644","type":"blob","sha":"58ab67f0712c69d45bc7d819e4d5f7ffc6830aaf","size":19,"url":"https://api.github.com/repos/github/gitignore/git/blobs/58ab67f0712c69d45bc7d819e4d5f7ffc6830aaf"},{"path":"Android.gitignore","mode":"100644","type":"blob","sha":"347e252ef10e9c2052ee2017c929530eb0afc5f1","size":431,"url":"https://api.github.com/repos/github/gitignore/git/blobs/347e252ef10e9c2052ee2017c929530eb0afc5f1"},{"path":"AppEngine.gitignore","mode":"100644","type":"blob","sha":"62273454531a136f13f5ce156157c03e243e8c2c","size":58,"url":"https://api.github.com/repos/github/gitignore/git/blobs/62273454531a136f13f5ce156157c03e243e8c2c"},{"path":"AppceleratorTitanium.gitignore","mode":"100644","type":"blob","sha":"3abea5597613e5baef43877d021dbcdf68048d17","size":45,"url":"https://api.github.com/repos/github/gitignore/git/blobs/3abea5597613e5baef43877d021dbcdf68048d17"},{"path":"ArchLinuxPackages.gitignore","mode":"100644","type":"blob","sha":"b73905529f237733c3690a9355d4730c6c9e61a6","size":75,"url":"https://api.github.com/repos/github/gitignore/git/blobs/b73905529f237733c3690a9355d4730c6c9e61a6"},{"path":"Autotools.gitignore","mode":"100644","type":"blob","sha":"617156f8192de57eee9af97f4ff47f48b18237b9","size":758,"url":"https://api.github.com/repos/github/gitignore/git/blobs/617156f8192de57eee9af97f4ff47f48b18237b9"},{"path":"C++.gitignore","mode":"100644","type":"blob","sha":"259148fa18f9fb7ef58563f4ff15fc7b172339fb","size":270,"url":"https://api.github.com/repos/github/gitignore/git/blobs/259148fa18f9fb7ef58563f4ff15fc7b172339fb"},{"path":"C.gitignore","mode":"100644","type":"blob","sha":"c6127b38c1aa25968a88db3940604d41529e4cf5","size":430,"url":"https://api.github.com/repos/github/gitignore/git/blobs/c6127b38c1aa25968a88db3940604d41529e4cf5"},{"path":"CFWheels.gitignore","mode":"100644","type":"blob","sha":"f2fec34ff897c8af9a339bb7ade95841229e3109","size":205,"url":"https://api.github.com/repos/github/gitignore/git/blobs/f2fec34ff897c8af9a339bb7ade95841229e3109"},{"path":"CMake.gitignore","mode":"100644","type":"blob","sha":"46f42f8f3ce85fc4e5a5c204ba75936ae6a636a9","size":165,"url":"https://api.github.com/repos/github/gitignore/git/blobs/46f42f8f3ce85fc4e5a5c204ba75936ae6a636a9"},{"path":"CONTRIBUTING.md","mode":"100644","type":"blob","sha":"c6938381958cd8161afcc3b83068c17d94ab104d","size":2205,"url":"https://api.github.com/repos/github/gitignore/git/blobs/c6938381958cd8161afcc3b83068c17d94ab104d"},{"path":"CUDA.gitignore","mode":"100644","type":"blob","sha":"cb385db83feab198506af09a2de20526e2252979","size":38,"url":"https://api.github.com/repos/github/gitignore/git/blobs/cb385db83feab198506af09a2de20526e2252979"},{"path":"CakePHP.gitignore","mode":"100644","type":"blob","sha":"c6597e4eabf8c5e9e6a6388ca786c7f507ddec00","size":353,"url":"https://api.github.com/repos/github/gitignore/git/blobs/c6597e4eabf8c5e9e6a6388ca786c7f507ddec00"},{"path":"ChefCookbook.gitignore","mode":"100644","type":"blob","sha":"5ee7b7a9a1806b35853f7e836a0a7fde15aaf509","size":77,"url":"https://api.github.com/repos/github/gitignore/git/blobs/5ee7b7a9a1806b35853f7e836a0a7fde15aaf509"},{"path":"Clojure.gitignore","mode":"120000","type":"blob","sha":"7657a270c457f4d600c76f2a91775c90b730062d","size":19,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7657a270c457f4d600c76f2a91775c90b730062d"},{"path":"CodeIgniter.gitignore","mode":"100644","type":"blob","sha":"f447dc307bfb502cdc6f7ef62de0eca58796ca90","size":352,"url":"https://api.github.com/repos/github/gitignore/git/blobs/f447dc307bfb502cdc6f7ef62de0eca58796ca90"},{"path":"CommonLisp.gitignore","mode":"100644","type":"blob","sha":"e7de127b014060bb3414971121e2fa7a9d7edb54","size":158,"url":"https://api.github.com/repos/github/gitignore/git/blobs/e7de127b014060bb3414971121e2fa7a9d7edb54"},{"path":"Composer.gitignore","mode":"100644","type":"blob","sha":"a67d42b32f8693498f7996ecce27df94a04728f6","size":274,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a67d42b32f8693498f7996ecce27df94a04728f6"},{"path":"Concrete5.gitignore","mode":"100644","type":"blob","sha":"d6c11ad2b48d369182116b7e6ae322a6add2ce1f","size":326,"url":"https://api.github.com/repos/github/gitignore/git/blobs/d6c11ad2b48d369182116b7e6ae322a6add2ce1f"},{"path":"Coq.gitignore","mode":"100644","type":"blob","sha":"66596b22ed3ae5298158d3adb7e61755a861f74d","size":489,"url":"https://api.github.com/repos/github/gitignore/git/blobs/66596b22ed3ae5298158d3adb7e61755a861f74d"},{"path":"CraftCMS.gitignore","mode":"100644","type":"blob","sha":"0d81b397e35e2b4f10695a30ac7923daa8421a72","size":188,"url":"https://api.github.com/repos/github/gitignore/git/blobs/0d81b397e35e2b4f10695a30ac7923daa8421a72"},{"path":"D.gitignore","mode":"100644","type":"blob","sha":"74b926fc90129d656d623f6b3210503d97c22c6c","size":207,"url":"https://api.github.com/repos/github/gitignore/git/blobs/74b926fc90129d656d623f6b3210503d97c22c6c"},{"path":"DM.gitignore","mode":"100644","type":"blob","sha":"ba5abdab83666220c8dbd5367c9cff1d4898222c","size":29,"url":"https://api.github.com/repos/github/gitignore/git/blobs/ba5abdab83666220c8dbd5367c9cff1d4898222c"},{"path":"Dart.gitignore","mode":"100644","type":"blob","sha":"3a83c2f087b9568780f528dbc06b0f83bb14179a","size":709,"url":"https://api.github.com/repos/github/gitignore/git/blobs/3a83c2f087b9568780f528dbc06b0f83bb14179a"},{"path":"Delphi.gitignore","mode":"100644","type":"blob","sha":"9532800ba2240f67aff2d6cfa51cf5a9d97d1e26","size":1679,"url":"https://api.github.com/repos/github/gitignore/git/blobs/9532800ba2240f67aff2d6cfa51cf5a9d97d1e26"},{"path":"Drupal.gitignore","mode":"100644","type":"blob","sha":"faae80838435cdd061f5e15798cc0590feb93315","size":1336,"url":"https://api.github.com/repos/github/gitignore/git/blobs/faae80838435cdd061f5e15798cc0590feb93315"},{"path":"EPiServer.gitignore","mode":"100644","type":"blob","sha":"97037de743e26b47451a693b0c186564c669b4dc","size":81,"url":"https://api.github.com/repos/github/gitignore/git/blobs/97037de743e26b47451a693b0c186564c669b4dc"},{"path":"Eagle.gitignore","mode":"100644","type":"blob","sha":"28f0b9715e61afe86dbbfc3312c22c38e6b7c6d6","size":517,"url":"https://api.github.com/repos/github/gitignore/git/blobs/28f0b9715e61afe86dbbfc3312c22c38e6b7c6d6"},{"path":"Elisp.gitignore","mode":"100644","type":"blob","sha":"206569dc66128fcd5cad0cbff0ba6de54ea48030","size":92,"url":"https://api.github.com/repos/github/gitignore/git/blobs/206569dc66128fcd5cad0cbff0ba6de54ea48030"},{"path":"Elixir.gitignore","mode":"100644","type":"blob","sha":"b263cd10f37b2ecd20d0a13a61bc92e60869a27e","size":94,"url":"https://api.github.com/repos/github/gitignore/git/blobs/b263cd10f37b2ecd20d0a13a61bc92e60869a27e"},{"path":"Elm.gitignore","mode":"100644","type":"blob","sha":"8b631e7de00937af125d4f143a50fb67c0c8c24c","size":79,"url":"https://api.github.com/repos/github/gitignore/git/blobs/8b631e7de00937af125d4f143a50fb67c0c8c24c"},{"path":"Erlang.gitignore","mode":"100644","type":"blob","sha":"751a61d1a14668f17ccb740755ab549e2aa2b337","size":154,"url":"https://api.github.com/repos/github/gitignore/git/blobs/751a61d1a14668f17ccb740755ab549e2aa2b337"},{"path":"ExpressionEngine.gitignore","mode":"100644","type":"blob","sha":"314e4df123ac81790a9b8035c42f8d7e2d775794","size":342,"url":"https://api.github.com/repos/github/gitignore/git/blobs/314e4df123ac81790a9b8035c42f8d7e2d775794"},{"path":"ExtJs.gitignore","mode":"100644","type":"blob","sha":"ab97a8cc3e11a430d4081ef3ad490be6b416ba9b","size":225,"url":"https://api.github.com/repos/github/gitignore/git/blobs/ab97a8cc3e11a430d4081ef3ad490be6b416ba9b"},{"path":"Fancy.gitignore","mode":"100644","type":"blob","sha":"70d6e631e55268e6bf2f051e37e4856c852a9d1e","size":12,"url":"https://api.github.com/repos/github/gitignore/git/blobs/70d6e631e55268e6bf2f051e37e4856c852a9d1e"},{"path":"Finale.gitignore","mode":"100644","type":"blob","sha":"7ef08e0c343f2ca3252bd3f78381a9920d70bdd8","size":184,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7ef08e0c343f2ca3252bd3f78381a9920d70bdd8"},{"path":"FlaxEngine.gitignore","mode":"100644","type":"blob","sha":"b47056844315e9017b9c8338b71098da797dda5a","size":482,"url":"https://api.github.com/repos/github/gitignore/git/blobs/b47056844315e9017b9c8338b71098da797dda5a"},{"path":"ForceDotCom.gitignore","mode":"100644","type":"blob","sha":"3933cd4dd502f8a47cd5ea9b36293a12348ce12c","size":57,"url":"https://api.github.com/repos/github/gitignore/git/blobs/3933cd4dd502f8a47cd5ea9b36293a12348ce12c"},{"path":"Fortran.gitignore","mode":"120000","type":"blob","sha":"5daba98a3e6c9988fc042b3e191dee32b0f0e4a7","size":13,"url":"https://api.github.com/repos/github/gitignore/git/blobs/5daba98a3e6c9988fc042b3e191dee32b0f0e4a7"},{"path":"FuelPHP.gitignore","mode":"100644","type":"blob","sha":"d69f71f433894b801b796323b64b46ad6116dec7","size":648,"url":"https://api.github.com/repos/github/gitignore/git/blobs/d69f71f433894b801b796323b64b46ad6116dec7"},{"path":"GWT.gitignore","mode":"100644","type":"blob","sha":"a01e7fcd9219dc5935ff31052e310573e9fb62fd","size":343,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a01e7fcd9219dc5935ff31052e310573e9fb62fd"},{"path":"Gcov.gitignore","mode":"100644","type":"blob","sha":"a6451430e174707029c8fc97467899ed91a42a09","size":56,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a6451430e174707029c8fc97467899ed91a42a09"},{"path":"GitBook.gitignore","mode":"100644","type":"blob","sha":"4cb12d8db77a1f9f11e1f7923b6f6f5075e003cf","size":353,"url":"https://api.github.com/repos/github/gitignore/git/blobs/4cb12d8db77a1f9f11e1f7923b6f6f5075e003cf"},{"path":"Global","mode":"040000","type":"tree","sha":"dfe253e32b2e6983ef148d0ef0a1cad019f1c9d4","url":"https://api.github.com/repos/github/gitignore/git/trees/dfe253e32b2e6983ef148d0ef0a1cad019f1c9d4"},{"path":"Go.gitignore","mode":"100644","type":"blob","sha":"3b735ec4a8ca017a057cfbc9abc77fe058c12f25","size":478,"url":"https://api.github.com/repos/github/gitignore/git/blobs/3b735ec4a8ca017a057cfbc9abc77fe058c12f25"},{"path":"Godot.gitignore","mode":"100644","type":"blob","sha":"d9aac213e776ee95d2c2274ccce2493a6402628c","size":239,"url":"https://api.github.com/repos/github/gitignore/git/blobs/d9aac213e776ee95d2c2274ccce2493a6402628c"},{"path":"Gradle.gitignore","mode":"100644","type":"blob","sha":"a5b111377bf754649817b89ec6e75822cf2e8192","size":410,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a5b111377bf754649817b89ec6e75822cf2e8192"},{"path":"Grails.gitignore","mode":"100644","type":"blob","sha":"9185f14c37cea61288692c406f086577750b8ec5","size":583,"url":"https://api.github.com/repos/github/gitignore/git/blobs/9185f14c37cea61288692c406f086577750b8ec5"},{"path":"Haskell.gitignore","mode":"100644","type":"blob","sha":"4c9e245b5d804bf398f9e0eb6c9366774cb404d3","size":225,"url":"https://api.github.com/repos/github/gitignore/git/blobs/4c9e245b5d804bf398f9e0eb6c9366774cb404d3"},{"path":"IGORPro.gitignore","mode":"100644","type":"blob","sha":"c62be65003661fa515e1301b03e82ecac7a59a94","size":121,"url":"https://api.github.com/repos/github/gitignore/git/blobs/c62be65003661fa515e1301b03e82ecac7a59a94"},{"path":"Idris.gitignore","mode":"100644","type":"blob","sha":"0f4e72c71c3010a753cd798ac4fdbf5bc5f2d7f0","size":43,"url":"https://api.github.com/repos/github/gitignore/git/blobs/0f4e72c71c3010a753cd798ac4fdbf5bc5f2d7f0"},{"path":"JBoss.gitignore","mode":"100644","type":"blob","sha":"75d1731ed97a0077c65f77aa8c73ca4bdd9940e1","size":509,"url":"https://api.github.com/repos/github/gitignore/git/blobs/75d1731ed97a0077c65f77aa8c73ca4bdd9940e1"},{"path":"JENKINS_HOME.gitignore","mode":"100644","type":"blob","sha":"2516c0994903f022b56eaa0ccd57b49cd8e3d030","size":1816,"url":"https://api.github.com/repos/github/gitignore/git/blobs/2516c0994903f022b56eaa0ccd57b49cd8e3d030"},{"path":"Java.gitignore","mode":"100644","type":"blob","sha":"524f0963bd1d8c6149eb6f2dc52a5fc50c7637ad","size":290,"url":"https://api.github.com/repos/github/gitignore/git/blobs/524f0963bd1d8c6149eb6f2dc52a5fc50c7637ad"},{"path":"Jekyll.gitignore","mode":"100644","type":"blob","sha":"74a9223a450d467a8067d8e03acc241a3dd8d963","size":107,"url":"https://api.github.com/repos/github/gitignore/git/blobs/74a9223a450d467a8067d8e03acc241a3dd8d963"},{"path":"Joomla.gitignore","mode":"100644","type":"blob","sha":"41a9ba415c52a4fd0e21b49284ffad12c780ccec","size":31043,"url":"https://api.github.com/repos/github/gitignore/git/blobs/41a9ba415c52a4fd0e21b49284ffad12c780ccec"},{"path":"Julia.gitignore","mode":"100644","type":"blob","sha":"29126e47b08bb2736f2c77513c0439aeb3192780","size":795,"url":"https://api.github.com/repos/github/gitignore/git/blobs/29126e47b08bb2736f2c77513c0439aeb3192780"},{"path":"KiCad.gitignore","mode":"100644","type":"blob","sha":"a63bc0e7f7e0be0ba75d9bd9edb4bc0c55a0445e","size":418,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a63bc0e7f7e0be0ba75d9bd9edb4bc0c55a0445e"},{"path":"Kohana.gitignore","mode":"100644","type":"blob","sha":"8b2ab01a8004afafdcc3c50f0faed4a7eb0b64f6","size":39,"url":"https://api.github.com/repos/github/gitignore/git/blobs/8b2ab01a8004afafdcc3c50f0faed4a7eb0b64f6"},{"path":"Kotlin.gitignore","mode":"120000","type":"blob","sha":"c48376eebcf1d33fcdd86f4c24ba317336e12324","size":14,"url":"https://api.github.com/repos/github/gitignore/git/blobs/c48376eebcf1d33fcdd86f4c24ba317336e12324"},{"path":"LICENSE","mode":"100644","type":"blob","sha":"670154e3538863b2d9891fd5483160fbdfc89164","size":6555,"url":"https://api.github.com/repos/github/gitignore/git/blobs/670154e3538863b2d9891fd5483160fbdfc89164"},{"path":"LabVIEW.gitignore","mode":"100644","type":"blob","sha":"31619f598145afae2c882332df1811614d444a43","size":150,"url":"https://api.github.com/repos/github/gitignore/git/blobs/31619f598145afae2c882332df1811614d444a43"},{"path":"Laravel.gitignore","mode":"100644","type":"blob","sha":"297959a19e5bda9ce4a16ae070493393b2eee837","size":339,"url":"https://api.github.com/repos/github/gitignore/git/blobs/297959a19e5bda9ce4a16ae070493393b2eee837"},{"path":"Leiningen.gitignore","mode":"100644","type":"blob","sha":"a4cb69a32cccf287d2e818c80ba5be860a0767f4","size":157,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a4cb69a32cccf287d2e818c80ba5be860a0767f4"},{"path":"LemonStand.gitignore","mode":"100644","type":"blob","sha":"c7d94ad34b06f7e11238d19b6bd60361d4eebced","size":348,"url":"https://api.github.com/repos/github/gitignore/git/blobs/c7d94ad34b06f7e11238d19b6bd60361d4eebced"},{"path":"Lilypond.gitignore","mode":"100644","type":"blob","sha":"513e6edd9c4a5bda43eb376c2f9a5d318eb135ec","size":33,"url":"https://api.github.com/repos/github/gitignore/git/blobs/513e6edd9c4a5bda43eb376c2f9a5d318eb135ec"},{"path":"Lithium.gitignore","mode":"100644","type":"blob","sha":"7b22568ea890623c6c43f242ecd5bb0ac5ece6cf","size":28,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7b22568ea890623c6c43f242ecd5bb0ac5ece6cf"},{"path":"Lua.gitignore","mode":"100644","type":"blob","sha":"6fd0a376decfbf0a7be87fdc75d5109da72a7d17","size":324,"url":"https://api.github.com/repos/github/gitignore/git/blobs/6fd0a376decfbf0a7be87fdc75d5109da72a7d17"},{"path":"Magento.gitignore","mode":"100644","type":"blob","sha":"abe6d79fedbbd46a143ff4f26a6ae7fad20afe09","size":715,"url":"https://api.github.com/repos/github/gitignore/git/blobs/abe6d79fedbbd46a143ff4f26a6ae7fad20afe09"},{"path":"Maven.gitignore","mode":"100644","type":"blob","sha":"2f4353087feb24a49a804ccd48fd5a68b221055c","size":382,"url":"https://api.github.com/repos/github/gitignore/git/blobs/2f4353087feb24a49a804ccd48fd5a68b221055c"},{"path":"Mercury.gitignore","mode":"100644","type":"blob","sha":"70ec86939718241f046522a8cc0143d5deeecaea","size":93,"url":"https://api.github.com/repos/github/gitignore/git/blobs/70ec86939718241f046522a8cc0143d5deeecaea"},{"path":"MetaProgrammingSystem.gitignore","mode":"100644","type":"blob","sha":"3e75841041c283547b25fdc71e35f347f366518e","size":391,"url":"https://api.github.com/repos/github/gitignore/git/blobs/3e75841041c283547b25fdc71e35f347f366518e"},{"path":"Nanoc.gitignore","mode":"100644","type":"blob","sha":"6f35daaf4782872165883d0dbca3bd6743892306","size":203,"url":"https://api.github.com/repos/github/gitignore/git/blobs/6f35daaf4782872165883d0dbca3bd6743892306"},{"path":"Nim.gitignore","mode":"100644","type":"blob","sha":"32e1dc0fdec7f15dec4fa2940ed5a02bb76ce2f1","size":33,"url":"https://api.github.com/repos/github/gitignore/git/blobs/32e1dc0fdec7f15dec4fa2940ed5a02bb76ce2f1"},{"path":"Node.gitignore","mode":"100644","type":"blob","sha":"c6bba591381216b569cdcb512d98b53c53fd167d","size":2047,"url":"https://api.github.com/repos/github/gitignore/git/blobs/c6bba591381216b569cdcb512d98b53c53fd167d"},{"path":"OCaml.gitignore","mode":"100644","type":"blob","sha":"a18e08402bb7d142966b692999d2a104d8f4d072","size":293,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a18e08402bb7d142966b692999d2a104d8f4d072"},{"path":"Objective-C.gitignore","mode":"100644","type":"blob","sha":"7801c930004221b0b271301be2fe4703ead5a092","size":1665,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7801c930004221b0b271301be2fe4703ead5a092"},{"path":"Opa.gitignore","mode":"100644","type":"blob","sha":"74c6219ceda9291aec7f74386d27ec7b75580844","size":90,"url":"https://api.github.com/repos/github/gitignore/git/blobs/74c6219ceda9291aec7f74386d27ec7b75580844"},{"path":"OpenCart.gitignore","mode":"100644","type":"blob","sha":"97be41faa387f53ec974ea83d42321af7c65e901","size":237,"url":"https://api.github.com/repos/github/gitignore/git/blobs/97be41faa387f53ec974ea83d42321af7c65e901"},{"path":"OracleForms.gitignore","mode":"100644","type":"blob","sha":"699a494011875395b4247a15bbcb909f1b38e5a7","size":100,"url":"https://api.github.com/repos/github/gitignore/git/blobs/699a494011875395b4247a15bbcb909f1b38e5a7"},{"path":"Packer.gitignore","mode":"100644","type":"blob","sha":"2cbc1ad079006a4c4fcbdb1bebfe0f0e69e77667","size":430,"url":"https://api.github.com/repos/github/gitignore/git/blobs/2cbc1ad079006a4c4fcbdb1bebfe0f0e69e77667"},{"path":"Perl.gitignore","mode":"100644","type":"blob","sha":"fb8b193173a847c52ee1b249f57a453c766a74b9","size":321,"url":"https://api.github.com/repos/github/gitignore/git/blobs/fb8b193173a847c52ee1b249f57a453c766a74b9"},{"path":"Phalcon.gitignore","mode":"100644","type":"blob","sha":"6ffe3aa220a9838f75900cf00e755ced29859d7a","size":29,"url":"https://api.github.com/repos/github/gitignore/git/blobs/6ffe3aa220a9838f75900cf00e755ced29859d7a"},{"path":"PlayFramework.gitignore","mode":"100644","type":"blob","sha":"ae5ec9fe1d9fb888c1ab3d2fac9fe15868505e5c","size":164,"url":"https://api.github.com/repos/github/gitignore/git/blobs/ae5ec9fe1d9fb888c1ab3d2fac9fe15868505e5c"},{"path":"Plone.gitignore","mode":"100644","type":"blob","sha":"770a8681ac36ee996cb0a45a1ff90e160f4ba267","size":137,"url":"https://api.github.com/repos/github/gitignore/git/blobs/770a8681ac36ee996cb0a45a1ff90e160f4ba267"},{"path":"Prestashop.gitignore","mode":"100644","type":"blob","sha":"9da6d29ad42c59f8b73aa4e4a6a2b12121472a4e","size":3330,"url":"https://api.github.com/repos/github/gitignore/git/blobs/9da6d29ad42c59f8b73aa4e4a6a2b12121472a4e"},{"path":"Processing.gitignore","mode":"100644","type":"blob","sha":"942ebbccb5de847b95c94c8c6430bc97bdfefee0","size":174,"url":"https://api.github.com/repos/github/gitignore/git/blobs/942ebbccb5de847b95c94c8c6430bc97bdfefee0"},{"path":"PureScript.gitignore","mode":"100644","type":"blob","sha":"de86604d370f097f52164369b9c198b967e10ec5","size":98,"url":"https://api.github.com/repos/github/gitignore/git/blobs/de86604d370f097f52164369b9c198b967e10ec5"},{"path":"Python.gitignore","mode":"100644","type":"blob","sha":"68bc17f9ff2104a9d7b6777058bb4c343ca72609","size":3078,"url":"https://api.github.com/repos/github/gitignore/git/blobs/68bc17f9ff2104a9d7b6777058bb4c343ca72609"},{"path":"Qooxdoo.gitignore","mode":"100644","type":"blob","sha":"d0c64102d85bb01cabfe12c34a5639e00c78060d","size":58,"url":"https://api.github.com/repos/github/gitignore/git/blobs/d0c64102d85bb01cabfe12c34a5639e00c78060d"},{"path":"Qt.gitignore","mode":"100644","type":"blob","sha":"7f4826b46ff5b2b5be9e98b0a867f4441fc1aabc","size":623,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7f4826b46ff5b2b5be9e98b0a867f4441fc1aabc"},{"path":"R.gitignore","mode":"100644","type":"blob","sha":"e75435c1b1aa229e6b2e849b5da20696779bf734","size":671,"url":"https://api.github.com/repos/github/gitignore/git/blobs/e75435c1b1aa229e6b2e849b5da20696779bf734"},{"path":"README.md","mode":"100644","type":"blob","sha":"7014eed78dc3fe92dbd1c8556847ef2e2639a158","size":7017,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7014eed78dc3fe92dbd1c8556847ef2e2639a158"},{"path":"ROS.gitignore","mode":"100644","type":"blob","sha":"35d74bb771f5ef74aa1259a9e472c379e4d58d86","size":538,"url":"https://api.github.com/repos/github/gitignore/git/blobs/35d74bb771f5ef74aa1259a9e472c379e4d58d86"},{"path":"Racket.gitignore","mode":"100644","type":"blob","sha":"93e407298df57df71d77593450b8faac3bb5b442","size":44,"url":"https://api.github.com/repos/github/gitignore/git/blobs/93e407298df57df71d77593450b8faac3bb5b442"},{"path":"Rails.gitignore","mode":"100644","type":"blob","sha":"c55bb7132e09a1ace72c955f02a78926072ef7a5","size":1352,"url":"https://api.github.com/repos/github/gitignore/git/blobs/c55bb7132e09a1ace72c955f02a78926072ef7a5"},{"path":"Raku.gitignore","mode":"100644","type":"blob","sha":"e792f6e4664cb96df035bbbc9b98e29698f4afa3","size":133,"url":"https://api.github.com/repos/github/gitignore/git/blobs/e792f6e4664cb96df035bbbc9b98e29698f4afa3"},{"path":"RhodesRhomobile.gitignore","mode":"100644","type":"blob","sha":"a211dcc3b0f7f791892ebc2a21048982403a5efc","size":77,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a211dcc3b0f7f791892ebc2a21048982403a5efc"},{"path":"Ruby.gitignore","mode":"100644","type":"blob","sha":"e3200e0f8145a0287931e92b16edbc679b62ff21","size":1205,"url":"https://api.github.com/repos/github/gitignore/git/blobs/e3200e0f8145a0287931e92b16edbc679b62ff21"},{"path":"Rust.gitignore","mode":"100644","type":"blob","sha":"6985cf1bd09ddd9ef8516d37668d37e78dddf38c","size":414,"url":"https://api.github.com/repos/github/gitignore/git/blobs/6985cf1bd09ddd9ef8516d37668d37e78dddf38c"},{"path":"SCons.gitignore","mode":"100644","type":"blob","sha":"84eee81b080e6927334253d6ceba93efcdf4bca4","size":158,"url":"https://api.github.com/repos/github/gitignore/git/blobs/84eee81b080e6927334253d6ceba93efcdf4bca4"},{"path":"Sass.gitignore","mode":"100644","type":"blob","sha":"159f515170b8ff415671ce5f26746b62aacf1558","size":45,"url":"https://api.github.com/repos/github/gitignore/git/blobs/159f515170b8ff415671ce5f26746b62aacf1558"},{"path":"Scala.gitignore","mode":"100644","type":"blob","sha":"7169cab19511ebdeabf9360c2aebc810432a75f0","size":116,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7169cab19511ebdeabf9360c2aebc810432a75f0"},{"path":"Scheme.gitignore","mode":"100644","type":"blob","sha":"cbb89d78da51cb0087893b4069218550a6cd2886","size":44,"url":"https://api.github.com/repos/github/gitignore/git/blobs/cbb89d78da51cb0087893b4069218550a6cd2886"},{"path":"Scrivener.gitignore","mode":"100644","type":"blob","sha":"5884b0c6c3d5b7c2e9371968d8aed7b2a7d890e5","size":174,"url":"https://api.github.com/repos/github/gitignore/git/blobs/5884b0c6c3d5b7c2e9371968d8aed7b2a7d890e5"},{"path":"Sdcc.gitignore","mode":"100644","type":"blob","sha":"07ee7d59abafb0f5ab798356e8c2302574f7455a","size":55,"url":"https://api.github.com/repos/github/gitignore/git/blobs/07ee7d59abafb0f5ab798356e8c2302574f7455a"},{"path":"SeamGen.gitignore","mode":"100644","type":"blob","sha":"a418cf376c573a7923af942bccea53c3d512dfab","size":961,"url":"https://api.github.com/repos/github/gitignore/git/blobs/a418cf376c573a7923af942bccea53c3d512dfab"},{"path":"SketchUp.gitignore","mode":"100644","type":"blob","sha":"5160df3c6bf8b351360ec6b4ff45003c84021cfe","size":6,"url":"https://api.github.com/repos/github/gitignore/git/blobs/5160df3c6bf8b351360ec6b4ff45003c84021cfe"},{"path":"Smalltalk.gitignore","mode":"100644","type":"blob","sha":"178d87af45bcb405789bda095443f839827a5de5","size":388,"url":"https://api.github.com/repos/github/gitignore/git/blobs/178d87af45bcb405789bda095443f839827a5de5"},{"path":"Stella.gitignore","mode":"100644","type":"blob","sha":"402a5438373542b72f749cc17b6901fa9372012e","size":207,"url":"https://api.github.com/repos/github/gitignore/git/blobs/402a5438373542b72f749cc17b6901fa9372012e"},{"path":"SugarCRM.gitignore","mode":"100644","type":"blob","sha":"6a183d1c748522dd2a6c4411de27d8fee9c5cac8","size":775,"url":"https://api.github.com/repos/github/gitignore/git/blobs/6a183d1c748522dd2a6c4411de27d8fee9c5cac8"},{"path":"Swift.gitignore","mode":"100644","type":"blob","sha":"330d1674f347b629e102677ac03d3bc87315a55c","size":2171,"url":"https://api.github.com/repos/github/gitignore/git/blobs/330d1674f347b629e102677ac03d3bc87315a55c"},{"path":"Symfony.gitignore","mode":"100644","type":"blob","sha":"3dab634c1880d59f5d3c82cfcc74948c5570f9c3","size":799,"url":"https://api.github.com/repos/github/gitignore/git/blobs/3dab634c1880d59f5d3c82cfcc74948c5570f9c3"},{"path":"SymphonyCMS.gitignore","mode":"100644","type":"blob","sha":"671c7ff9e32680d0a0ecf05dfc2c126f7023ca7f","size":90,"url":"https://api.github.com/repos/github/gitignore/git/blobs/671c7ff9e32680d0a0ecf05dfc2c126f7023ca7f"},{"path":"TeX.gitignore","mode":"100644","type":"blob","sha":"e9642441330ac17a1f943ba97b74cde4348c212d","size":3080,"url":"https://api.github.com/repos/github/gitignore/git/blobs/e9642441330ac17a1f943ba97b74cde4348c212d"},{"path":"Terraform.gitignore","mode":"100644","type":"blob","sha":"9b8a46e692b4c85209a91563b4743c52c72b9ca3","size":884,"url":"https://api.github.com/repos/github/gitignore/git/blobs/9b8a46e692b4c85209a91563b4743c52c72b9ca3"},{"path":"Textpattern.gitignore","mode":"100644","type":"blob","sha":"3805636d622db10fc13f283bcb0613336d7b6eca","size":177,"url":"https://api.github.com/repos/github/gitignore/git/blobs/3805636d622db10fc13f283bcb0613336d7b6eca"},{"path":"TurboGears2.gitignore","mode":"100644","type":"blob","sha":"122b3de221fee44327ae71f8610e96361db3bdc7","size":202,"url":"https://api.github.com/repos/github/gitignore/git/blobs/122b3de221fee44327ae71f8610e96361db3bdc7"},{"path":"TwinCAT3.gitignore","mode":"100644","type":"blob","sha":"7bd6f87505cb5c64ea345128f03ab9cea558bd2a","size":691,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7bd6f87505cb5c64ea345128f03ab9cea558bd2a"},{"path":"Typo3.gitignore","mode":"100644","type":"blob","sha":"200c2a2bf79dee7d80ffdefaefaf4308d177a5d1","size":514,"url":"https://api.github.com/repos/github/gitignore/git/blobs/200c2a2bf79dee7d80ffdefaefaf4308d177a5d1"},{"path":"Unity.gitignore","mode":"100644","type":"blob","sha":"58cbc8256e87c2d9c81893bdde79c0c781a011d0","size":1284,"url":"https://api.github.com/repos/github/gitignore/git/blobs/58cbc8256e87c2d9c81893bdde79c0c781a011d0"},{"path":"UnrealEngine.gitignore","mode":"100644","type":"blob","sha":"6582eaf9a113bb6b9e653abe1df8e5db0f87708c","size":946,"url":"https://api.github.com/repos/github/gitignore/git/blobs/6582eaf9a113bb6b9e653abe1df8e5db0f87708c"},{"path":"VVVV.gitignore","mode":"100644","type":"blob","sha":"5df4324603e0cd5f096e56a3a669f962cbde4509","size":57,"url":"https://api.github.com/repos/github/gitignore/git/blobs/5df4324603e0cd5f096e56a3a669f962cbde4509"},{"path":"VisualStudio.gitignore","mode":"100644","type":"blob","sha":"8a30d258ed9d0288d3e2889b3d0e2174b2028225","size":6860,"url":"https://api.github.com/repos/github/gitignore/git/blobs/8a30d258ed9d0288d3e2889b3d0e2174b2028225"},{"path":"Waf.gitignore","mode":"100644","type":"blob","sha":"dad2b56bddadf7af9e4721e769f7f46f6a754043","size":204,"url":"https://api.github.com/repos/github/gitignore/git/blobs/dad2b56bddadf7af9e4721e769f7f46f6a754043"},{"path":"WordPress.gitignore","mode":"100644","type":"blob","sha":"54696693a38ab92dd7c8e54328e42cf78b1751ca","size":849,"url":"https://api.github.com/repos/github/gitignore/git/blobs/54696693a38ab92dd7c8e54328e42cf78b1751ca"},{"path":"Xojo.gitignore","mode":"100644","type":"blob","sha":"4915783bf0d98614bc3e2f7f4bc851d094ea5d4f","size":161,"url":"https://api.github.com/repos/github/gitignore/git/blobs/4915783bf0d98614bc3e2f7f4bc851d094ea5d4f"},{"path":"Yeoman.gitignore","mode":"100644","type":"blob","sha":"7170d72018d19c0c6ce0fdb43c5f757cbe326c63","size":52,"url":"https://api.github.com/repos/github/gitignore/git/blobs/7170d72018d19c0c6ce0fdb43c5f757cbe326c63"},{"path":"Yii.gitignore","mode":"100644","type":"blob","sha":"70f087546f2c77ed7f0c921f4a1011ac765a0481","size":120,"url":"https://api.github.com/repos/github/gitignore/git/blobs/70f087546f2c77ed7f0c921f4a1011ac765a0481"},{"path":"ZendFramework.gitignore","mode":"100644","type":"blob","sha":"f0b7d8585b703f2726eb98334d5452777400ef3e","size":290,"url":"https://api.github.com/repos/github/gitignore/git/blobs/f0b7d8585b703f2726eb98334d5452777400ef3e"},{"path":"Zephir.gitignore","mode":"100644","type":"blob","sha":"839cb5d707038d3942c268c69d6b2b86639ca33a","size":387,"url":"https://api.github.com/repos/github/gitignore/git/blobs/839cb5d707038d3942c268c69d6b2b86639ca33a"},{"path":"community","mode":"040000","type":"tree","sha":"4cacfb47f9d23db7a5fd0d616f10b783c3011705","url":"https://api.github.com/repos/github/gitignore/git/trees/4cacfb47f9d23db7a5fd0d616f10b783c3011705"}],"truncated":false}
+{
+  "sha": "4488915eec0b3a45b5c63ead28f286819c0917de",
+  "url": "https://api.github.com/repos/github/gitignore/git/trees/4488915eec0b3a45b5c63ead28f286819c0917de",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62c5dc1e194bf628ff16c852f78ffc1eb0e40e44",
+      "url": "https://api.github.com/repos/github/gitignore/git/trees/62c5dc1e194bf628ff16c852f78ffc1eb0e40e44"
+    },
+    {
+      "path": "AL.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02eac6989ad65d3fcea222171a83a1348ee0dbd9",
+      "size": 371,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/02eac6989ad65d3fcea222171a83a1348ee0dbd9"
+    },
+    {
+      "path": "Actionscript.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d947ca8879f8a9072fe485c566204e3c2929e80",
+      "size": 350,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/5d947ca8879f8a9072fe485c566204e3c2929e80"
+    },
+    {
+      "path": "Ada.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4d703968a488445345202ef8d45a35cc802aa03",
+      "size": 51,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/b4d703968a488445345202ef8d45a35cc802aa03"
+    },
+    {
+      "path": "Agda.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58ab67f0712c69d45bc7d819e4d5f7ffc6830aaf",
+      "size": 19,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/58ab67f0712c69d45bc7d819e4d5f7ffc6830aaf"
+    },
+    {
+      "path": "Android.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "347e252ef10e9c2052ee2017c929530eb0afc5f1",
+      "size": 431,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/347e252ef10e9c2052ee2017c929530eb0afc5f1"
+    },
+    {
+      "path": "AppEngine.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62273454531a136f13f5ce156157c03e243e8c2c",
+      "size": 58,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/62273454531a136f13f5ce156157c03e243e8c2c"
+    },
+    {
+      "path": "AppceleratorTitanium.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3abea5597613e5baef43877d021dbcdf68048d17",
+      "size": 45,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/3abea5597613e5baef43877d021dbcdf68048d17"
+    },
+    {
+      "path": "ArchLinuxPackages.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b73905529f237733c3690a9355d4730c6c9e61a6",
+      "size": 75,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/b73905529f237733c3690a9355d4730c6c9e61a6"
+    },
+    {
+      "path": "Autotools.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "617156f8192de57eee9af97f4ff47f48b18237b9",
+      "size": 758,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/617156f8192de57eee9af97f4ff47f48b18237b9"
+    },
+    {
+      "path": "C++.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259148fa18f9fb7ef58563f4ff15fc7b172339fb",
+      "size": 270,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/259148fa18f9fb7ef58563f4ff15fc7b172339fb"
+    },
+    {
+      "path": "C.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6127b38c1aa25968a88db3940604d41529e4cf5",
+      "size": 430,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/c6127b38c1aa25968a88db3940604d41529e4cf5"
+    },
+    {
+      "path": "CFWheels.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2fec34ff897c8af9a339bb7ade95841229e3109",
+      "size": 205,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/f2fec34ff897c8af9a339bb7ade95841229e3109"
+    },
+    {
+      "path": "CMake.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f42f8f3ce85fc4e5a5c204ba75936ae6a636a9",
+      "size": 165,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/46f42f8f3ce85fc4e5a5c204ba75936ae6a636a9"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6938381958cd8161afcc3b83068c17d94ab104d",
+      "size": 2205,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/c6938381958cd8161afcc3b83068c17d94ab104d"
+    },
+    {
+      "path": "CUDA.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb385db83feab198506af09a2de20526e2252979",
+      "size": 38,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/cb385db83feab198506af09a2de20526e2252979"
+    },
+    {
+      "path": "CakePHP.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6597e4eabf8c5e9e6a6388ca786c7f507ddec00",
+      "size": 353,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/c6597e4eabf8c5e9e6a6388ca786c7f507ddec00"
+    },
+    {
+      "path": "ChefCookbook.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ee7b7a9a1806b35853f7e836a0a7fde15aaf509",
+      "size": 77,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/5ee7b7a9a1806b35853f7e836a0a7fde15aaf509"
+    },
+    {
+      "path": "Clojure.gitignore",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "7657a270c457f4d600c76f2a91775c90b730062d",
+      "size": 19,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7657a270c457f4d600c76f2a91775c90b730062d"
+    },
+    {
+      "path": "CodeIgniter.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f447dc307bfb502cdc6f7ef62de0eca58796ca90",
+      "size": 352,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/f447dc307bfb502cdc6f7ef62de0eca58796ca90"
+    },
+    {
+      "path": "CommonLisp.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7de127b014060bb3414971121e2fa7a9d7edb54",
+      "size": 158,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/e7de127b014060bb3414971121e2fa7a9d7edb54"
+    },
+    {
+      "path": "Composer.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a67d42b32f8693498f7996ecce27df94a04728f6",
+      "size": 274,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a67d42b32f8693498f7996ecce27df94a04728f6"
+    },
+    {
+      "path": "Concrete5.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c11ad2b48d369182116b7e6ae322a6add2ce1f",
+      "size": 326,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/d6c11ad2b48d369182116b7e6ae322a6add2ce1f"
+    },
+    {
+      "path": "Coq.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66596b22ed3ae5298158d3adb7e61755a861f74d",
+      "size": 489,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/66596b22ed3ae5298158d3adb7e61755a861f74d"
+    },
+    {
+      "path": "CraftCMS.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d81b397e35e2b4f10695a30ac7923daa8421a72",
+      "size": 188,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/0d81b397e35e2b4f10695a30ac7923daa8421a72"
+    },
+    {
+      "path": "D.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b926fc90129d656d623f6b3210503d97c22c6c",
+      "size": 207,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/74b926fc90129d656d623f6b3210503d97c22c6c"
+    },
+    {
+      "path": "DM.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba5abdab83666220c8dbd5367c9cff1d4898222c",
+      "size": 29,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/ba5abdab83666220c8dbd5367c9cff1d4898222c"
+    },
+    {
+      "path": "Dart.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a83c2f087b9568780f528dbc06b0f83bb14179a",
+      "size": 709,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/3a83c2f087b9568780f528dbc06b0f83bb14179a"
+    },
+    {
+      "path": "Delphi.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9532800ba2240f67aff2d6cfa51cf5a9d97d1e26",
+      "size": 1679,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/9532800ba2240f67aff2d6cfa51cf5a9d97d1e26"
+    },
+    {
+      "path": "Drupal.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faae80838435cdd061f5e15798cc0590feb93315",
+      "size": 1336,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/faae80838435cdd061f5e15798cc0590feb93315"
+    },
+    {
+      "path": "EPiServer.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97037de743e26b47451a693b0c186564c669b4dc",
+      "size": 81,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/97037de743e26b47451a693b0c186564c669b4dc"
+    },
+    {
+      "path": "Eagle.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f0b9715e61afe86dbbfc3312c22c38e6b7c6d6",
+      "size": 517,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/28f0b9715e61afe86dbbfc3312c22c38e6b7c6d6"
+    },
+    {
+      "path": "Elisp.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "206569dc66128fcd5cad0cbff0ba6de54ea48030",
+      "size": 92,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/206569dc66128fcd5cad0cbff0ba6de54ea48030"
+    },
+    {
+      "path": "Elixir.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b263cd10f37b2ecd20d0a13a61bc92e60869a27e",
+      "size": 94,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/b263cd10f37b2ecd20d0a13a61bc92e60869a27e"
+    },
+    {
+      "path": "Elm.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b631e7de00937af125d4f143a50fb67c0c8c24c",
+      "size": 79,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/8b631e7de00937af125d4f143a50fb67c0c8c24c"
+    },
+    {
+      "path": "Erlang.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "751a61d1a14668f17ccb740755ab549e2aa2b337",
+      "size": 154,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/751a61d1a14668f17ccb740755ab549e2aa2b337"
+    },
+    {
+      "path": "ExpressionEngine.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "314e4df123ac81790a9b8035c42f8d7e2d775794",
+      "size": 342,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/314e4df123ac81790a9b8035c42f8d7e2d775794"
+    },
+    {
+      "path": "ExtJs.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab97a8cc3e11a430d4081ef3ad490be6b416ba9b",
+      "size": 225,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/ab97a8cc3e11a430d4081ef3ad490be6b416ba9b"
+    },
+    {
+      "path": "Fancy.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70d6e631e55268e6bf2f051e37e4856c852a9d1e",
+      "size": 12,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/70d6e631e55268e6bf2f051e37e4856c852a9d1e"
+    },
+    {
+      "path": "Finale.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ef08e0c343f2ca3252bd3f78381a9920d70bdd8",
+      "size": 184,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7ef08e0c343f2ca3252bd3f78381a9920d70bdd8"
+    },
+    {
+      "path": "FlaxEngine.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b47056844315e9017b9c8338b71098da797dda5a",
+      "size": 482,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/b47056844315e9017b9c8338b71098da797dda5a"
+    },
+    {
+      "path": "ForceDotCom.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3933cd4dd502f8a47cd5ea9b36293a12348ce12c",
+      "size": 57,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/3933cd4dd502f8a47cd5ea9b36293a12348ce12c"
+    },
+    {
+      "path": "Fortran.gitignore",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "5daba98a3e6c9988fc042b3e191dee32b0f0e4a7",
+      "size": 13,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/5daba98a3e6c9988fc042b3e191dee32b0f0e4a7"
+    },
+    {
+      "path": "FuelPHP.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69f71f433894b801b796323b64b46ad6116dec7",
+      "size": 648,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/d69f71f433894b801b796323b64b46ad6116dec7"
+    },
+    {
+      "path": "GWT.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a01e7fcd9219dc5935ff31052e310573e9fb62fd",
+      "size": 343,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a01e7fcd9219dc5935ff31052e310573e9fb62fd"
+    },
+    {
+      "path": "Gcov.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6451430e174707029c8fc97467899ed91a42a09",
+      "size": 56,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a6451430e174707029c8fc97467899ed91a42a09"
+    },
+    {
+      "path": "GitBook.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb12d8db77a1f9f11e1f7923b6f6f5075e003cf",
+      "size": 353,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/4cb12d8db77a1f9f11e1f7923b6f6f5075e003cf"
+    },
+    {
+      "path": "Global",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfe253e32b2e6983ef148d0ef0a1cad019f1c9d4",
+      "url": "https://api.github.com/repos/github/gitignore/git/trees/dfe253e32b2e6983ef148d0ef0a1cad019f1c9d4"
+    },
+    {
+      "path": "Go.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b735ec4a8ca017a057cfbc9abc77fe058c12f25",
+      "size": 478,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/3b735ec4a8ca017a057cfbc9abc77fe058c12f25"
+    },
+    {
+      "path": "Godot.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9aac213e776ee95d2c2274ccce2493a6402628c",
+      "size": 239,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/d9aac213e776ee95d2c2274ccce2493a6402628c"
+    },
+    {
+      "path": "Gradle.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5b111377bf754649817b89ec6e75822cf2e8192",
+      "size": 410,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a5b111377bf754649817b89ec6e75822cf2e8192"
+    },
+    {
+      "path": "Grails.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9185f14c37cea61288692c406f086577750b8ec5",
+      "size": 583,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/9185f14c37cea61288692c406f086577750b8ec5"
+    },
+    {
+      "path": "Haskell.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c9e245b5d804bf398f9e0eb6c9366774cb404d3",
+      "size": 225,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/4c9e245b5d804bf398f9e0eb6c9366774cb404d3"
+    },
+    {
+      "path": "IGORPro.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c62be65003661fa515e1301b03e82ecac7a59a94",
+      "size": 121,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/c62be65003661fa515e1301b03e82ecac7a59a94"
+    },
+    {
+      "path": "Idris.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f4e72c71c3010a753cd798ac4fdbf5bc5f2d7f0",
+      "size": 43,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/0f4e72c71c3010a753cd798ac4fdbf5bc5f2d7f0"
+    },
+    {
+      "path": "JBoss.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75d1731ed97a0077c65f77aa8c73ca4bdd9940e1",
+      "size": 509,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/75d1731ed97a0077c65f77aa8c73ca4bdd9940e1"
+    },
+    {
+      "path": "JENKINS_HOME.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2516c0994903f022b56eaa0ccd57b49cd8e3d030",
+      "size": 1816,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/2516c0994903f022b56eaa0ccd57b49cd8e3d030"
+    },
+    {
+      "path": "Java.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "524f0963bd1d8c6149eb6f2dc52a5fc50c7637ad",
+      "size": 290,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/524f0963bd1d8c6149eb6f2dc52a5fc50c7637ad"
+    },
+    {
+      "path": "Jekyll.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74a9223a450d467a8067d8e03acc241a3dd8d963",
+      "size": 107,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/74a9223a450d467a8067d8e03acc241a3dd8d963"
+    },
+    {
+      "path": "Joomla.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41a9ba415c52a4fd0e21b49284ffad12c780ccec",
+      "size": 31043,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/41a9ba415c52a4fd0e21b49284ffad12c780ccec"
+    },
+    {
+      "path": "Julia.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29126e47b08bb2736f2c77513c0439aeb3192780",
+      "size": 795,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/29126e47b08bb2736f2c77513c0439aeb3192780"
+    },
+    {
+      "path": "KiCad.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a63bc0e7f7e0be0ba75d9bd9edb4bc0c55a0445e",
+      "size": 418,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a63bc0e7f7e0be0ba75d9bd9edb4bc0c55a0445e"
+    },
+    {
+      "path": "Kohana.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b2ab01a8004afafdcc3c50f0faed4a7eb0b64f6",
+      "size": 39,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/8b2ab01a8004afafdcc3c50f0faed4a7eb0b64f6"
+    },
+    {
+      "path": "Kotlin.gitignore",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "c48376eebcf1d33fcdd86f4c24ba317336e12324",
+      "size": 14,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/c48376eebcf1d33fcdd86f4c24ba317336e12324"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "670154e3538863b2d9891fd5483160fbdfc89164",
+      "size": 6555,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/670154e3538863b2d9891fd5483160fbdfc89164"
+    },
+    {
+      "path": "LabVIEW.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31619f598145afae2c882332df1811614d444a43",
+      "size": 150,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/31619f598145afae2c882332df1811614d444a43"
+    },
+    {
+      "path": "Laravel.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "297959a19e5bda9ce4a16ae070493393b2eee837",
+      "size": 339,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/297959a19e5bda9ce4a16ae070493393b2eee837"
+    },
+    {
+      "path": "Leiningen.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4cb69a32cccf287d2e818c80ba5be860a0767f4",
+      "size": 157,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a4cb69a32cccf287d2e818c80ba5be860a0767f4"
+    },
+    {
+      "path": "LemonStand.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7d94ad34b06f7e11238d19b6bd60361d4eebced",
+      "size": 348,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/c7d94ad34b06f7e11238d19b6bd60361d4eebced"
+    },
+    {
+      "path": "Lilypond.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "513e6edd9c4a5bda43eb376c2f9a5d318eb135ec",
+      "size": 33,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/513e6edd9c4a5bda43eb376c2f9a5d318eb135ec"
+    },
+    {
+      "path": "Lithium.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b22568ea890623c6c43f242ecd5bb0ac5ece6cf",
+      "size": 28,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7b22568ea890623c6c43f242ecd5bb0ac5ece6cf"
+    },
+    {
+      "path": "Lua.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd0a376decfbf0a7be87fdc75d5109da72a7d17",
+      "size": 324,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/6fd0a376decfbf0a7be87fdc75d5109da72a7d17"
+    },
+    {
+      "path": "Magento.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abe6d79fedbbd46a143ff4f26a6ae7fad20afe09",
+      "size": 715,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/abe6d79fedbbd46a143ff4f26a6ae7fad20afe09"
+    },
+    {
+      "path": "Maven.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f4353087feb24a49a804ccd48fd5a68b221055c",
+      "size": 382,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/2f4353087feb24a49a804ccd48fd5a68b221055c"
+    },
+    {
+      "path": "Mercury.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70ec86939718241f046522a8cc0143d5deeecaea",
+      "size": 93,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/70ec86939718241f046522a8cc0143d5deeecaea"
+    },
+    {
+      "path": "MetaProgrammingSystem.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e75841041c283547b25fdc71e35f347f366518e",
+      "size": 391,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/3e75841041c283547b25fdc71e35f347f366518e"
+    },
+    {
+      "path": "Nanoc.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f35daaf4782872165883d0dbca3bd6743892306",
+      "size": 203,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/6f35daaf4782872165883d0dbca3bd6743892306"
+    },
+    {
+      "path": "Nim.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32e1dc0fdec7f15dec4fa2940ed5a02bb76ce2f1",
+      "size": 33,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/32e1dc0fdec7f15dec4fa2940ed5a02bb76ce2f1"
+    },
+    {
+      "path": "Node.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6bba591381216b569cdcb512d98b53c53fd167d",
+      "size": 2047,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/c6bba591381216b569cdcb512d98b53c53fd167d"
+    },
+    {
+      "path": "OCaml.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a18e08402bb7d142966b692999d2a104d8f4d072",
+      "size": 293,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a18e08402bb7d142966b692999d2a104d8f4d072"
+    },
+    {
+      "path": "Objective-C.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7801c930004221b0b271301be2fe4703ead5a092",
+      "size": 1665,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7801c930004221b0b271301be2fe4703ead5a092"
+    },
+    {
+      "path": "Opa.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74c6219ceda9291aec7f74386d27ec7b75580844",
+      "size": 90,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/74c6219ceda9291aec7f74386d27ec7b75580844"
+    },
+    {
+      "path": "OpenCart.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97be41faa387f53ec974ea83d42321af7c65e901",
+      "size": 237,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/97be41faa387f53ec974ea83d42321af7c65e901"
+    },
+    {
+      "path": "OracleForms.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "699a494011875395b4247a15bbcb909f1b38e5a7",
+      "size": 100,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/699a494011875395b4247a15bbcb909f1b38e5a7"
+    },
+    {
+      "path": "Packer.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cbc1ad079006a4c4fcbdb1bebfe0f0e69e77667",
+      "size": 430,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/2cbc1ad079006a4c4fcbdb1bebfe0f0e69e77667"
+    },
+    {
+      "path": "Perl.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb8b193173a847c52ee1b249f57a453c766a74b9",
+      "size": 321,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/fb8b193173a847c52ee1b249f57a453c766a74b9"
+    },
+    {
+      "path": "Phalcon.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ffe3aa220a9838f75900cf00e755ced29859d7a",
+      "size": 29,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/6ffe3aa220a9838f75900cf00e755ced29859d7a"
+    },
+    {
+      "path": "PlayFramework.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae5ec9fe1d9fb888c1ab3d2fac9fe15868505e5c",
+      "size": 164,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/ae5ec9fe1d9fb888c1ab3d2fac9fe15868505e5c"
+    },
+    {
+      "path": "Plone.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "770a8681ac36ee996cb0a45a1ff90e160f4ba267",
+      "size": 137,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/770a8681ac36ee996cb0a45a1ff90e160f4ba267"
+    },
+    {
+      "path": "Prestashop.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da6d29ad42c59f8b73aa4e4a6a2b12121472a4e",
+      "size": 3330,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/9da6d29ad42c59f8b73aa4e4a6a2b12121472a4e"
+    },
+    {
+      "path": "Processing.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "942ebbccb5de847b95c94c8c6430bc97bdfefee0",
+      "size": 174,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/942ebbccb5de847b95c94c8c6430bc97bdfefee0"
+    },
+    {
+      "path": "PureScript.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de86604d370f097f52164369b9c198b967e10ec5",
+      "size": 98,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/de86604d370f097f52164369b9c198b967e10ec5"
+    },
+    {
+      "path": "Python.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68bc17f9ff2104a9d7b6777058bb4c343ca72609",
+      "size": 3078,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/68bc17f9ff2104a9d7b6777058bb4c343ca72609"
+    },
+    {
+      "path": "Qooxdoo.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c64102d85bb01cabfe12c34a5639e00c78060d",
+      "size": 58,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/d0c64102d85bb01cabfe12c34a5639e00c78060d"
+    },
+    {
+      "path": "Qt.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f4826b46ff5b2b5be9e98b0a867f4441fc1aabc",
+      "size": 623,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7f4826b46ff5b2b5be9e98b0a867f4441fc1aabc"
+    },
+    {
+      "path": "R.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e75435c1b1aa229e6b2e849b5da20696779bf734",
+      "size": 671,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/e75435c1b1aa229e6b2e849b5da20696779bf734"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7014eed78dc3fe92dbd1c8556847ef2e2639a158",
+      "size": 7017,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7014eed78dc3fe92dbd1c8556847ef2e2639a158"
+    },
+    {
+      "path": "ROS.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35d74bb771f5ef74aa1259a9e472c379e4d58d86",
+      "size": 538,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/35d74bb771f5ef74aa1259a9e472c379e4d58d86"
+    },
+    {
+      "path": "Racket.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93e407298df57df71d77593450b8faac3bb5b442",
+      "size": 44,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/93e407298df57df71d77593450b8faac3bb5b442"
+    },
+    {
+      "path": "Rails.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c55bb7132e09a1ace72c955f02a78926072ef7a5",
+      "size": 1352,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/c55bb7132e09a1ace72c955f02a78926072ef7a5"
+    },
+    {
+      "path": "Raku.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e792f6e4664cb96df035bbbc9b98e29698f4afa3",
+      "size": 133,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/e792f6e4664cb96df035bbbc9b98e29698f4afa3"
+    },
+    {
+      "path": "RhodesRhomobile.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a211dcc3b0f7f791892ebc2a21048982403a5efc",
+      "size": 77,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a211dcc3b0f7f791892ebc2a21048982403a5efc"
+    },
+    {
+      "path": "Ruby.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3200e0f8145a0287931e92b16edbc679b62ff21",
+      "size": 1205,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/e3200e0f8145a0287931e92b16edbc679b62ff21"
+    },
+    {
+      "path": "Rust.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6985cf1bd09ddd9ef8516d37668d37e78dddf38c",
+      "size": 414,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/6985cf1bd09ddd9ef8516d37668d37e78dddf38c"
+    },
+    {
+      "path": "SCons.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84eee81b080e6927334253d6ceba93efcdf4bca4",
+      "size": 158,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/84eee81b080e6927334253d6ceba93efcdf4bca4"
+    },
+    {
+      "path": "Sass.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "159f515170b8ff415671ce5f26746b62aacf1558",
+      "size": 45,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/159f515170b8ff415671ce5f26746b62aacf1558"
+    },
+    {
+      "path": "Scala.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7169cab19511ebdeabf9360c2aebc810432a75f0",
+      "size": 116,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7169cab19511ebdeabf9360c2aebc810432a75f0"
+    },
+    {
+      "path": "Scheme.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbb89d78da51cb0087893b4069218550a6cd2886",
+      "size": 44,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/cbb89d78da51cb0087893b4069218550a6cd2886"
+    },
+    {
+      "path": "Scrivener.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5884b0c6c3d5b7c2e9371968d8aed7b2a7d890e5",
+      "size": 174,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/5884b0c6c3d5b7c2e9371968d8aed7b2a7d890e5"
+    },
+    {
+      "path": "Sdcc.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ee7d59abafb0f5ab798356e8c2302574f7455a",
+      "size": 55,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/07ee7d59abafb0f5ab798356e8c2302574f7455a"
+    },
+    {
+      "path": "SeamGen.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a418cf376c573a7923af942bccea53c3d512dfab",
+      "size": 961,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/a418cf376c573a7923af942bccea53c3d512dfab"
+    },
+    {
+      "path": "SketchUp.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5160df3c6bf8b351360ec6b4ff45003c84021cfe",
+      "size": 6,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/5160df3c6bf8b351360ec6b4ff45003c84021cfe"
+    },
+    {
+      "path": "Smalltalk.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178d87af45bcb405789bda095443f839827a5de5",
+      "size": 388,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/178d87af45bcb405789bda095443f839827a5de5"
+    },
+    {
+      "path": "Stella.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "402a5438373542b72f749cc17b6901fa9372012e",
+      "size": 207,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/402a5438373542b72f749cc17b6901fa9372012e"
+    },
+    {
+      "path": "SugarCRM.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a183d1c748522dd2a6c4411de27d8fee9c5cac8",
+      "size": 775,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/6a183d1c748522dd2a6c4411de27d8fee9c5cac8"
+    },
+    {
+      "path": "Swift.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330d1674f347b629e102677ac03d3bc87315a55c",
+      "size": 2171,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/330d1674f347b629e102677ac03d3bc87315a55c"
+    },
+    {
+      "path": "Symfony.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dab634c1880d59f5d3c82cfcc74948c5570f9c3",
+      "size": 799,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/3dab634c1880d59f5d3c82cfcc74948c5570f9c3"
+    },
+    {
+      "path": "SymphonyCMS.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "671c7ff9e32680d0a0ecf05dfc2c126f7023ca7f",
+      "size": 90,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/671c7ff9e32680d0a0ecf05dfc2c126f7023ca7f"
+    },
+    {
+      "path": "TeX.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9642441330ac17a1f943ba97b74cde4348c212d",
+      "size": 3080,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/e9642441330ac17a1f943ba97b74cde4348c212d"
+    },
+    {
+      "path": "Terraform.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8a46e692b4c85209a91563b4743c52c72b9ca3",
+      "size": 884,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/9b8a46e692b4c85209a91563b4743c52c72b9ca3"
+    },
+    {
+      "path": "Textpattern.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3805636d622db10fc13f283bcb0613336d7b6eca",
+      "size": 177,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/3805636d622db10fc13f283bcb0613336d7b6eca"
+    },
+    {
+      "path": "TurboGears2.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "122b3de221fee44327ae71f8610e96361db3bdc7",
+      "size": 202,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/122b3de221fee44327ae71f8610e96361db3bdc7"
+    },
+    {
+      "path": "TwinCAT3.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bd6f87505cb5c64ea345128f03ab9cea558bd2a",
+      "size": 691,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7bd6f87505cb5c64ea345128f03ab9cea558bd2a"
+    },
+    {
+      "path": "Typo3.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "200c2a2bf79dee7d80ffdefaefaf4308d177a5d1",
+      "size": 514,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/200c2a2bf79dee7d80ffdefaefaf4308d177a5d1"
+    },
+    {
+      "path": "Unity.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58cbc8256e87c2d9c81893bdde79c0c781a011d0",
+      "size": 1284,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/58cbc8256e87c2d9c81893bdde79c0c781a011d0"
+    },
+    {
+      "path": "UnrealEngine.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6582eaf9a113bb6b9e653abe1df8e5db0f87708c",
+      "size": 946,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/6582eaf9a113bb6b9e653abe1df8e5db0f87708c"
+    },
+    {
+      "path": "VVVV.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5df4324603e0cd5f096e56a3a669f962cbde4509",
+      "size": 57,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/5df4324603e0cd5f096e56a3a669f962cbde4509"
+    },
+    {
+      "path": "VisualStudio.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a30d258ed9d0288d3e2889b3d0e2174b2028225",
+      "size": 6860,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/8a30d258ed9d0288d3e2889b3d0e2174b2028225"
+    },
+    {
+      "path": "Waf.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad2b56bddadf7af9e4721e769f7f46f6a754043",
+      "size": 204,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/dad2b56bddadf7af9e4721e769f7f46f6a754043"
+    },
+    {
+      "path": "WordPress.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54696693a38ab92dd7c8e54328e42cf78b1751ca",
+      "size": 849,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/54696693a38ab92dd7c8e54328e42cf78b1751ca"
+    },
+    {
+      "path": "Xojo.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4915783bf0d98614bc3e2f7f4bc851d094ea5d4f",
+      "size": 161,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/4915783bf0d98614bc3e2f7f4bc851d094ea5d4f"
+    },
+    {
+      "path": "Yeoman.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7170d72018d19c0c6ce0fdb43c5f757cbe326c63",
+      "size": 52,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/7170d72018d19c0c6ce0fdb43c5f757cbe326c63"
+    },
+    {
+      "path": "Yii.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70f087546f2c77ed7f0c921f4a1011ac765a0481",
+      "size": 120,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/70f087546f2c77ed7f0c921f4a1011ac765a0481"
+    },
+    {
+      "path": "ZendFramework.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0b7d8585b703f2726eb98334d5452777400ef3e",
+      "size": 290,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/f0b7d8585b703f2726eb98334d5452777400ef3e"
+    },
+    {
+      "path": "Zephir.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839cb5d707038d3942c268c69d6b2b86639ca33a",
+      "size": 387,
+      "url": "https://api.github.com/repos/github/gitignore/git/blobs/839cb5d707038d3942c268c69d6b2b86639ca33a"
+    },
+    {
+      "path": "community",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cacfb47f9d23db7a5fd0d616f10b783c3011705",
+      "url": "https://api.github.com/repos/github/gitignore/git/trees/4cacfb47f9d23db7a5fd0d616f10b783c3011705"
+    }
+  ],
+  "truncated": false
+}
