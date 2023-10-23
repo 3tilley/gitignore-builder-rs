@@ -1,5 +1,10 @@
 pub mod github;
 mod stuff;
+use log::Level;
+use opentelemetry::KeyValue;
+use opentelemetry_appender_log::OpenTelemetryLogBridge;
+use opentelemetry_sdk::logs::{Config, LoggerProvider};
+use opentelemetry_sdk::Resource;
 
 use std::collections::HashMap;
 use axum::extract::Path;
@@ -55,14 +60,14 @@ pub async fn get_ignores(Query(params): Query<Gitignore>) -> impl IntoResponse {
     (StatusCode::OK, igs)
 }
 
-async fn closure_replacement(lang: String) -> String {
+async fn turn_lang_to_gitignore_block(lang: String) -> String {
     match get_ignore(&lang).await {
         Ok(ig) => format!(
             "# Start of .gitignore for {}\n{}\n# End of .gitignore for {}\n",
             lang, ig, lang
         ),
         Err(e) => {
-            println!("err = {:?}", e);
+            tracing::error!("err = {:?}", e);
             format!("#####\n# Failure finding .gitignore for {}\n####\n", lang)
         }
     }
@@ -83,7 +88,7 @@ pub async fn fetch_ignores(params: Gitignore) -> String {
         params
             .lang
             .into_iter()
-            .map(|lang| closure_replacement(lang))
+            .map(|lang| turn_lang_to_gitignore_block(lang))
             .collect::<Vec<_>>(),
     )
     .await
@@ -113,4 +118,26 @@ pub fn get_matching_ignores(all_ignores: Vec<Tree>, matching: &Vec<String>) -> V
             None => None,
         }
     }).collect::<Vec<_>>()
+}
+
+pub fn prepare_tracing() {
+    let exporter = opentelemetry_stdout::LogExporterBuilder::default()
+        // uncomment the below lines to pretty print output.
+        // .with_encoder(|writer, data|
+        //    Ok(serde_json::to_writer_pretty(writer, &data).unwrap()))
+        .build();
+    let logger_provider = LoggerProvider::builder()
+        .with_config(
+            Config::default().with_resource(Resource::new(vec![KeyValue::new(
+                "service.name",
+                "logs-basic-example",
+            )])),
+        )
+        .with_simple_exporter(exporter)
+        .build();
+
+    // Setup Log Appender for the log crate.
+    let otel_log_appender = OpenTelemetryLogBridge::new(&logger_provider);
+    log::set_boxed_logger(Box::new(otel_log_appender)).unwrap();
+    log::set_max_level(Level::Error.to_level_filter());
 }

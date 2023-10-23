@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand};
-use gitignore_builder_rs::{available_ignores_from_file, get_matching_ignores, Gitignore};
+use gitignore_builder_rs::{available_ignores_from_file, get_matching_ignores, Gitignore, prepare_tracing};
 use strum::EnumString;
 
 /// Simple program to greet a person
@@ -36,6 +36,7 @@ enum Command {
 
 #[tokio::main]
 async fn main() {
+    prepare_tracing();
     let args = Cli::parse();
     match &args.command {
         Command::Fetch { lang } => {
@@ -64,10 +65,10 @@ async fn main() {
             match source {
                 Source::Disk => {
 
-                    let igs = gitignore_builder_rs::available_ignores_from_file();
+                    let igs = available_ignores_from_file();
                     match lang {
                         Some(langs) => {
-                            let matching = gitignore_builder_rs::get_matching_ignores(igs, langs);
+                            let matching = get_matching_ignores(igs, langs);
                             println!("{}", matching.join("\n"))
                         }
                         None => {
