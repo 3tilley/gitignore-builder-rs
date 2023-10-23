@@ -1,10 +1,6 @@
 pub mod github;
 mod stuff;
-use log::Level;
-use opentelemetry::KeyValue;
-use opentelemetry_appender_log::OpenTelemetryLogBridge;
-use opentelemetry_sdk::logs::{Config, LoggerProvider};
-use opentelemetry_sdk::Resource;
+pub mod telemetry;
 
 use std::collections::HashMap;
 use axum::extract::Path;
@@ -13,8 +9,10 @@ use axum::response::IntoResponse;
 use axum::routing::get;
 use axum::Router;
 use axum_extra::extract::Query;
+use axum_tracing_opentelemetry::middleware::{OtelAxumLayer, OtelInResponseLayer};
 use futures::future::join_all;
 use serde::Deserialize;
+use tracing::info;
 
 
 use crate::github::Tree;
@@ -100,6 +98,8 @@ pub fn make_router() -> Router {
     Router::new()
         .route("/", get(hello_world))
         .route("/ignores", get(get_ignores))
+        .layer(OtelInResponseLayer::default())
+        .layer(OtelAxumLayer::default())
 }
 
 pub fn available_ignores_from_file() -> Vec<Tree> {
@@ -110,8 +110,7 @@ pub fn available_ignores_from_file() -> Vec<Tree> {
 
 pub fn get_matching_ignores(all_ignores: Vec<Tree>, matching: &Vec<String>) -> Vec<String> {
     let lower_map = all_ignores.into_iter().map(|x| (x.path.to_ascii_lowercase().replace(".gitignore", ""), x.path)).collect::<HashMap<String, String>>();
-    println!("lower_map = {:?}", lower_map);
-    println!("matching = {:?}", matching);
+    info!("Matching = {:?}", matching);
     matching.into_iter().filter_map(|x| {
         match lower_map.get(&*x.to_ascii_lowercase()) {
             Some(m) => Some(m.clone()),
@@ -120,24 +119,6 @@ pub fn get_matching_ignores(all_ignores: Vec<Tree>, matching: &Vec<String>) -> V
     }).collect::<Vec<_>>()
 }
 
-pub fn prepare_tracing() {
-    let exporter = opentelemetry_stdout::LogExporterBuilder::default()
-        // uncomment the below lines to pretty print output.
-        // .with_encoder(|writer, data|
-        //    Ok(serde_json::to_writer_pretty(writer, &data).unwrap()))
-        .build();
-    let logger_provider = LoggerProvider::builder()
-        .with_config(
-            Config::default().with_resource(Resource::new(vec![KeyValue::new(
-                "service.name",
-                "logs-basic-example",
-            )])),
-        )
-        .with_simple_exporter(exporter)
-        .build();
-
-    // Setup Log Appender for the log crate.
-    let otel_log_appender = OpenTelemetryLogBridge::new(&logger_provider);
-    log::set_boxed_logger(Box::new(otel_log_appender)).unwrap();
-    log::set_max_level(Level::Error.to_level_filter());
+pub async fn shutdown_signal() {
+    opentelemetry::global::shutdown_tracer_provider();
 }

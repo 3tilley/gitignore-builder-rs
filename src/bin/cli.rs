@@ -1,6 +1,7 @@
 use clap::{Parser, Subcommand};
-use gitignore_builder_rs::{available_ignores_from_file, get_matching_ignores, Gitignore, prepare_tracing};
+use gitignore_builder_rs::{available_ignores_from_file, get_matching_ignores, Gitignore};
 use strum::EnumString;
+use gitignore_builder_rs::telemetry::prepare_logging;
 
 /// Simple program to greet a person
 #[derive(Parser, Debug)]
@@ -36,7 +37,7 @@ enum Command {
 
 #[tokio::main]
 async fn main() {
-    prepare_tracing();
+    prepare_logging();
     let args = Cli::parse();
     match &args.command {
         Command::Fetch { lang } => {
