@@ -2,7 +2,7 @@ pub mod github;
 mod stuff;
 pub mod telemetry;
 
-use std::collections::HashMap;
+use axum::body::HttpBody;
 use axum::extract::Path;
 use axum::http::StatusCode;
 use axum::response::IntoResponse;
@@ -10,10 +10,13 @@ use axum::routing::get;
 use axum::Router;
 use axum_extra::extract::Query;
 use axum_tracing_opentelemetry::middleware::{OtelAxumLayer, OtelInResponseLayer};
+use futures::future;
 use futures::future::join_all;
+use futures::future::FutureExt;
 use serde::Deserialize;
+use std::collections::HashMap;
+use std::future::Future;
 use tracing::info;
-
 
 use crate::github::Tree;
 
@@ -40,15 +43,10 @@ pub async fn get_ignore(lang: &str) -> Result<String, ()> {
     let resp = reqwest::get(&url).await.unwrap();
     match resp.status() {
         reqwest::StatusCode::OK => {
-            println!("ok");
             let body = resp.text().await.unwrap();
-            println!("{}", body);
             Ok(body)
         }
-        _ => {
-            println!("err {}", resp.status());
-            Err(())
-        }
+        _ => Err(()),
     }
 }
 
@@ -66,9 +64,18 @@ async fn turn_lang_to_gitignore_block(lang: String) -> String {
         ),
         Err(e) => {
             tracing::error!("err = {:?}", e);
-            format!("#####\n# Failure finding .gitignore for {}\n####\n", lang)
+            format!("#####\n# Failure fetching .gitignore for {}\n####\n", lang)
         }
     }
+}
+
+async fn err_lang(lang: String) -> String {
+    tracing::error!("Couldn't find a matching .gitignore for {}", lang);
+    format!(
+        "#####\n# Couldn't find a matching .gitignore for {}\n####\n",
+        lang
+    )
+    .into()
 }
 
 pub async fn fetch_ignores(params: Gitignore) -> String {
@@ -82,11 +89,15 @@ pub async fn fetch_ignores(params: Gitignore) -> String {
     //         }
     //     }
     // }).collect::<Vec<String>>().join("\n"));
+    let matching = get_matching_ignores(available_ignores_from_file(), &params.lang);
     let igs = join_all(
-        params
-            .lang
+        matching
             .into_iter()
-            .map(|lang| turn_lang_to_gitignore_block(lang))
+            .map(|lang_result| match lang_result {
+                Ok(lang) => turn_lang_to_gitignore_block(lang).boxed(),
+                Err(lang) => err_lang(lang).boxed(),
+            })
+            // .collect::<Vec<Box<dyn futures::Future<Output = String>>>>(),
             .collect::<Vec<_>>(),
     )
     .await
@@ -103,20 +114,32 @@ pub fn make_router() -> Router {
 }
 
 pub fn available_ignores_from_file() -> Vec<Tree> {
-// Use fs_err to read a file from disk and deserialise with serde
+    // Use fs_err to read a file from disk and deserialise with serde
     let j: crate::github::Root = serde_json::from_str(IGNORE_LIST).unwrap();
     j.tree
 }
 
-pub fn get_matching_ignores(all_ignores: Vec<Tree>, matching: &Vec<String>) -> Vec<String> {
-    let lower_map = all_ignores.into_iter().map(|x| (x.path.to_ascii_lowercase().replace(".gitignore", ""), x.path)).collect::<HashMap<String, String>>();
+pub fn get_matching_ignores(
+    all_ignores: Vec<Tree>,
+    matching: &Vec<String>,
+) -> Vec<Result<String, String>> {
+    let lower_map = all_ignores
+        .into_iter()
+        .map(|x| {
+            (
+                x.path.to_ascii_lowercase().replace(".gitignore", ""),
+                x.path,
+            )
+        })
+        .collect::<HashMap<String, String>>();
     info!("Matching = {:?}", matching);
-    matching.into_iter().filter_map(|x| {
-        match lower_map.get(&*x.to_ascii_lowercase()) {
-            Some(m) => Some(m.clone()),
-            None => None,
-        }
-    }).collect::<Vec<_>>()
+    matching
+        .into_iter()
+        .map(|x| match lower_map.get(&*x.to_ascii_lowercase()) {
+            Some(m) => Ok(m.clone()),
+            None => Err(x.clone()),
+        })
+        .collect::<Vec<_>>()
 }
 
 pub async fn shutdown_signal() {

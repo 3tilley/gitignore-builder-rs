@@ -1,7 +1,7 @@
 use clap::{Parser, Subcommand};
+use gitignore_builder_rs::telemetry::prepare_logging;
 use gitignore_builder_rs::{available_ignores_from_file, get_matching_ignores, Gitignore};
 use strum::EnumString;
-use gitignore_builder_rs::telemetry::prepare_logging;
 
 /// Simple program to greet a person
 #[derive(Parser, Debug)]
@@ -24,9 +24,16 @@ enum Source {
 
 #[derive(Subcommand, Debug)]
 enum Command {
-    Fetch { lang: Option<String> },
-    Merge { lang: Vec<String> },
-    ListAll { source: Option<Source>, lang: Option<Vec<String>> },
+    Fetch {
+        lang: Option<String>,
+    },
+    Merge {
+        lang: Vec<String>,
+    },
+    ListAll {
+        source: Option<Source>,
+        lang: Option<Vec<String>>,
+    },
 }
 
 // impl Into<Gitignore> for Command::Merge {
@@ -43,17 +50,24 @@ async fn main() {
         Command::Fetch { lang } => {
             let lang = lang.clone().expect("No language specified");
             let igs = available_ignores_from_file();
-            let m = get_matching_ignores(igs, &vec![lang.clone()]);
+            let m: Vec<_> = get_matching_ignores(igs, &vec![lang.clone()])
+                .into_iter()
+                .filter_map(|x| x.ok())
+                .collect();
             match m.len() {
-                0 => {panic!("No matching gitignore found for {}", lang)},
+                0 => {
+                    panic!("No matching gitignore found for {}", lang)
+                }
                 1 => {
-                    let res = gitignore_builder_rs::fetch_ignores(Gitignore {
-                        lang: m,
-                    })
-                        .await;
+                    let res = gitignore_builder_rs::fetch_ignores(Gitignore { lang: m }).await;
                     println!("{}", res)
-                },
-                x => {panic!("Too many matching gitignores found for {}. Found {} matches", lang, x)}
+                }
+                x => {
+                    panic!(
+                        "Too many matching gitignores found for {}. Found {} matches",
+                        lang, x
+                    )
+                }
             }
         }
         Command::Merge { lang } => {
@@ -65,15 +79,24 @@ async fn main() {
             let source = source.unwrap_or(Source::Disk);
             match source {
                 Source::Disk => {
-
                     let igs = available_ignores_from_file();
                     match lang {
                         Some(langs) => {
-                            let matching = get_matching_ignores(igs, langs);
+                            // TODO: Work out what the sensible return is for an unmatched language
+                            let matching: Vec<String> = get_matching_ignores(igs, langs)
+                                .into_iter()
+                                .flatten()
+                                .collect();
                             println!("{}", matching.join("\n"))
                         }
                         None => {
-                            println!("{}", igs.iter().map(|x| x.path.clone()).collect::<Vec<String>>().join("\n"))
+                            println!(
+                                "{}",
+                                igs.iter()
+                                    .map(|x| x.path.clone())
+                                    .collect::<Vec<String>>()
+                                    .join("\n")
+                            )
                         }
                     }
 

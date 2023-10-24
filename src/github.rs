@@ -21,4 +21,3 @@ pub struct Tree {
     pub url: String,
     pub size: Option<i64>,
 }
-

@@ -1,14 +1,13 @@
-use opentelemetry_sdk::logs::{Config, LoggerProvider};
-use opentelemetry_sdk::Resource;
+use log::Level;
 use opentelemetry::KeyValue;
 use opentelemetry_appender_log::OpenTelemetryLogBridge;
-use log::Level;
+use opentelemetry_sdk::logs::{Config, LoggerProvider};
+use opentelemetry_sdk::Resource;
 
 pub fn prepare_logging() {
     let exporter = opentelemetry_stdout::LogExporterBuilder::default()
         // Comment / uncomment the below lines to toggle pretty print output.
-        .with_encoder(|writer, data|
-           Ok(serde_json::to_writer_pretty(writer, &data).unwrap()))
+        .with_encoder(|writer, data| Ok(serde_json::to_writer_pretty(writer, &data).unwrap()))
         .build();
     let logger_provider = LoggerProvider::builder()
         .with_config(
