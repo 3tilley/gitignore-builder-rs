@@ -14,8 +14,22 @@ The app is hosted at https://gitig.shuttleapp.rs. There is a method at:
 
 E.g.
 
-`xh https://gitig.shuttleapp.rs/ignores?lang=python&lang=rust`
+`curl "https://gitig.shuttleapp.rs/ignores?lang=python&lang=rust"`
 
+Note for Windows users:
+
+Depending where curl picks its CA certs from the certificate may not be recognised. Your favourite HTTP client
+should work though:
+
+httpie
+
+`https gitig.shuttleapp.rs/ignores lang==python lang==rust` 
+
+xh
+
+`xh https://gitig.shuttleapp.rs/ignores lang==python lang==rust`
+
+Or while it's not recommended, you can also use curl's `--insecure` flag.
 ### CLI
 
 Clone the repo and run:

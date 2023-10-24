@@ -23,7 +23,7 @@ use crate::github::Tree;
 const IGNORE_LIST: &str = include_str!("../data/gitignore-tree.json");
 
 pub async fn hello_world() -> &'static str {
-    "Hello from a non-standard package layout"
+    "Welcome to the gitignore builder service"
 }
 
 pub async fn updates(Path(id): Path<Vec<i32>>) -> impl IntoResponse {
