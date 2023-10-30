@@ -16,7 +16,7 @@ use futures::future::FutureExt;
 use serde::Deserialize;
 use std::collections::HashMap;
 use std::future::Future;
-use tracing::info;
+use tracing::{debug, debug_span, info, info_span, trace, Instrument};
 
 use crate::github::Tree;
 
@@ -35,19 +35,36 @@ pub struct Gitignore {
     pub lang: Vec<String>,
 }
 
+#[tracing::instrument(level = "info")]
 pub async fn get_ignore(lang: &str) -> Result<String, ()> {
-    let url = format!(
-        "https://raw.githubusercontent.com/github/gitignore/master/{}",
-        lang
-    );
-    let resp = reqwest::get(&url).await.unwrap();
-    match resp.status() {
-        reqwest::StatusCode::OK => {
-            let body = resp.text().await.unwrap();
-            Ok(body)
+    let span = info_span!("manually_instrumenting_get_ignore");
+    async move {
+        let url = format!(
+            "https://raw.githubusercontent.com/github/gitignore/master/{}",
+            lang
+        );
+        debug!(
+            "I'm an event. My code is looking for a response from {}",
+            url
+        );
+        let resp = reqwest::get(&url)
+            .instrument(debug_span!("waiting_for_get"))
+            .await
+            .unwrap();
+        match resp.status() {
+            StatusCode::OK => {
+                let body = resp
+                    .text()
+                    .instrument(debug_span!("waiting_for_body"))
+                    .await
+                    .unwrap();
+                Ok(body)
+            }
+            _ => Err(()),
         }
-        _ => Err(()),
     }
+    .instrument(span)
+    .await
 }
 
 pub async fn get_ignores(Query(params): Query<Gitignore>) -> impl IntoResponse {

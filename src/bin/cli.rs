@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand};
-use gitignore_builder_rs::telemetry::prepare_logging;
+// use gitignore_builder_rs::telemetry::prepare_logging;
 use gitignore_builder_rs::{available_ignores_from_file, get_matching_ignores, Gitignore};
 use strum::EnumString;
 
@@ -44,7 +44,7 @@ enum Command {
 
 #[tokio::main]
 async fn main() {
-    prepare_logging();
+    // prepare_logging();
     let args = Cli::parse();
     match &args.command {
         Command::Fetch { lang } => {

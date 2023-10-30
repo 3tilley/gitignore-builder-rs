@@ -18,3 +18,5 @@ Cargo.lock
 
 .idea/
 
+Secrets*.toml
+/secrets
